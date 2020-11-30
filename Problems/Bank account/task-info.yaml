@@ -1,0 +1,38 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class BankAccount {
+
+        protected String number;
+        protected Long balance;
+
+        public BankAccount(String number, Long balance) {
+            this.number = number;
+            this.balance = balance;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3042
+status: Solved
+feedback:
+  message: "Compilation error\nMain.java:34: error: cannot find symbol\n        if\
+    \ (!BankAccount.class.isAssignableFrom(CheckingAccount.class) \n             \
+    \                                   ^\n  symbol:   class CheckingAccount\n  location:\
+    \ class Main\nMain.java:35: error: cannot find symbol\n            || !(BankAccount.class.isAssignableFrom(SavingAccount.class)))\
+    \ {\n                                                    ^\n  symbol:   class\
+    \ SavingAccount\n  location: class Main\nMain.java:43: error: cannot find symbol\n\
+    \        final CheckingAccount chAcc = new CheckingAccount(chNumber, chBalance,\
+    \ chFee);\n              ^\n  symbol:   class CheckingAccount\n  location: class\
+    \ Main\nMain.java:43: error: cannot find symbol\n        final CheckingAccount\
+    \ chAcc = new CheckingAccount(chNumber, chBalance, chFee);\n                 \
+    \                         ^\n  symbol:   class CheckingAccount\n  location: class\
+    \ Main\nMain.java:49: error: cannot find symbol\n        final SavingAccount savAcc\
+    \ = new SavingAccount(savNumber, savBalance, savInterestRate);\n             \
+    \ ^\n  symbol:   class SavingAccount\n  location: class Main\nMain.java:49: error:\
+    \ cannot find symbol\n        final SavingAccount savAcc = new SavingAccount(savNumber,\
+    \ savBalance, savInterestRate);\n                                         ^\n\
+    \  symbol:   class SavingAccount\n  location: class Main\n6 errors\n"
+  time: Wed, 25 Nov 2020 08:21:06 UTC
+record: -1

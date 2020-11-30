@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Encryption-Decryption/task" />
+            <option value="$PROJECT_DIR$/Problems/Bank account" />
+            <option value="$PROJECT_DIR$/Problems/Burger store" />
+            <option value="$PROJECT_DIR$/Problems/Clocks" />
+            <option value="$PROJECT_DIR$/Problems/Employees" />
+            <option value="$PROJECT_DIR$/Problems/Find mistake" />
+            <option value="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy" />
+            <option value="$PROJECT_DIR$/Problems/Groundhogs at a party" />
+            <option value="$PROJECT_DIR$/Problems/Laptop store" />
+            <option value="$PROJECT_DIR$/Problems/Motors" />
+            <option value="$PROJECT_DIR$/Problems/Overloading methods" />
+            <option value="$PROJECT_DIR$/Problems/Pick your team" />
+            <option value="$PROJECT_DIR$/Problems/Print" />
+            <option value="$PROJECT_DIR$/Problems/Publication and its subclasses" />
+            <option value="$PROJECT_DIR$/Problems/Publications" />
+            <option value="$PROJECT_DIR$/Problems/Robot" />
+            <option value="$PROJECT_DIR$/Problems/Robot factory" />
+            <option value="$PROJECT_DIR$/Problems/Saying animals" />
+            <option value="$PROJECT_DIR$/Problems/Shapes area" />
+            <option value="$PROJECT_DIR$/Problems/Template Method" />
+            <option value="$PROJECT_DIR$/Problems/Template Method (1)" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
